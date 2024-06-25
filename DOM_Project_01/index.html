@@ -3,12 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Background Colour Changer</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
 </head>
-</head>
-<body>
-    <h1></h1>
+<body class="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <h1 class="text-8xl font-mono mb-20">Background Colour Changer</h1>
+    <div class="main-content flex flex-col justify-center items-center p-4" style="height: 300px; width: 950px;">
+        <div class="top mb-12">
+            <h1 class="mb-12 text-2xl">Press the button to change the background</h1>
+        </div>
+        <div class="button-container flex justify-center items-center space-x-7">
+            <button id="black" class=" button bg-black  text-white font-bold py-2 px-4 rounded-full" >
+                Button
+            </button>
+            <button id="blue" class=" button bg-blue-500  text-white font-bold py-2 px-4 rounded-full" >
+                Button
+            </button>
+            <button id="green" class=" button bg-green-500  text-white font-bold py-2 px-4 rounded-full">
+                Button
+            </button>
+            <button id="yellow" class=" button bg-yellow-500  text-white font-bold py-2 px-4 rounded-full">
+                Button
+            </button>
+            <button id="red" class=" button bg-red-500  text-white font-bold py-2 px-4 rounded-full">
+                Button
+            </button>
+            <button id="purple" class=" button bg-purple-500  text-white font-bold py-2 px-4 rounded-full">
+                Button
+            </button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
